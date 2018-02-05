@@ -1,0 +1,16 @@
+En una combinación lineal primero se multiplica cada vector por una constante y luego se suman 
+Combinación Lineal 
+UnaFigura(350,300) <class 'pygameMat.ImgsHoriz'>[('u=', 0, 24.5), ('[[1], [0.5]]', 39, 0.0), ("<class 'pygameMat.ImgsHoriz'>[('$e10', 0, 0.0), ('v=', 10, 0.0)]", 132, 24.5), ('[[-0.5], [0.3]]', 178, 0.0)]
+ <class 'pygameMat.ImgsHoriz'>[('w=', 0, 24.5), ('<class \'pygameMat.UnaOpBin\'>[(\'(\', 0, 24.5), (\'<class \\\'pygameMat.UnaOpBin\\\'>[(\\\'(\\\', 0, 24.5), (\\\'2\\\', 15, 24.5), ("<class \\\'pygameMat.ImgsHoriz\\\'>[]", 32, 43.5), (\\\'[[1], [0.5]]\\\', 32, 0.0), (\\\')\\\', 125, 24.5)]\', 15, 0.0), (\'+\', 152, 24.5), (\'<class \\\'pygameMat.UnaOpBin\\\'>[(\\\'(\\\', 0, 24.5), (\\\'3\\\', 15, 24.5), ("<class \\\'pygameMat.ImgsHoriz\\\'>[]", 32, 43.5), (\\\'[[-0.5], [0.3]]\\\', 32, 0.0), (\\\')\\\', 135, 24.5)]\', 175, 0.0), (\')\', 322, 24.5)]', 42, 0.0)]
+ <class 'pygameMat.ImgsHoriz'>[('w=', 0, 24.5), ("<class 'pygameMat.UnaOpBin'>[('(', 0, 24.5), ('[[2], [1.0]]', 15, 0.0), ('+', 107, 24.5), ('[[-1.5], [0.9]]', 130, 0.0), (')', 233, 24.5)]", 42, 0.0), ('=', 287, 24.5), ('[[0.5], [1.9]]', 310, 0.0)]
+ 
+La combinación lineal se puede escribir como la multiplicación de una matriz por un vector, los vectores forman la matriz y los escalares forman el vector 
+Matriz por vector 
+Es otra forma de escribir la combinación lineal 
+La operación matriz por vector también se puede realizar combinando cada renglón de la matriz con el vector 
+Otra forma de hacer la operación 
+Ejercicios 
+Sea <class 'pygameMat.ImgsHoriz'>[('u=', 0, 24.5), ('[[-2], [1]]', 39, 0.0)] $e10 y <class 'pygameMat.ImgsHoriz'>[('v=', 0, 24.5), ('[[3], [2]]', 36, 0.0), ('.', 105, 24.5)] 
+(1) Encuentre 3u-2v $e10 gráficamente y compruebe analíticamente. 
+(2) Escriba la combinación lineal anterior como matriz por vector. 
+(3) ¿Cuáles deben ser  a $e10  y  b $e10  para que  au+bv= [[-1], [-3]] ? 

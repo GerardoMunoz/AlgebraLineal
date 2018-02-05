@@ -1,0 +1,9 @@
+Al multiplicar un escalar por una matriz, el escalar multiplica cada elemento de la matriz. El dibujo queda del doble del tamaño. Cada punto queda al doble de la distancia respecto al origen 
+Escalar por matriz 
+UnaFigura(220,220) <class 'pygameMat.ImgsHoriz'>[('ImgStrA=', 0, 24.5), ('[[0, 0, 0.5, 1, 1, 0], [0, 1, 1.5, 1, 0, 0]]', 45, 0.0)]
+ <class 'pygameMat.ImgsHoriz'>[('ImgStrB=', 0, 24.5), ('<class \'pygameMat.UnaOpBin\'>[(\'ImgStr(\', 0, 24.5), (\'ImgStr2\', 15, 24.5), ("<class \'pygameMat.ImgsHoriz\'>[]", 32, 43.5), (\'[[0, 0, 0.5, 1, 1, 0], [0, 1, 1.5, 1, 0, 0]]\', 32, 0.0), (\'ImgStr)\', 304, 24.5)]', 43, 0.0)]
+ <class 'pygameMat.ImgsHoriz'>[('ImgStrB=', 0, 24.5), ('[[0, 0, 1.0, 2, 2, 0], [0, 2, 3.0, 2, 0, 0]]', 43, 0.0)]
+ 
+Ejercicios 
+(1) Sea <class 'pygameMat.ImgsHoriz'>[('ImgStru=', 0, 24.5), ('[[-2], [1]]', 39, 0.0), ('ImgStr.', 118, 24.5)]  Encuentre ImgStr3u $e10 gráficamente y compruebe analíticamente. 
+(2) ¿Cuánto es ImgStr0u ? y ¿Cuánto es <class 'pygameMat.ImgsHoriz'>[('ImgStr5', 0, 24.5), ('[[0], [0]]', 17, 0.0)] ? 

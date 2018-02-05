@@ -1,0 +1,14 @@
+En la primera figura cada punto se representa con un número real, llamado escalar 
+Escalar 
+UnaFigura(350,23) ImgStrx=             
+En la segunda figura cada punto requiere dos números reales, que se pueden escribir como un vector, el primer número representa el desplazamiento hacia la derecha y el segundo número representa el desplazamiento hacia arriba 
+Vector 
+UnaFigura(340,240) [['x'], ['y']] 
+El punto cero cero es el origen del plano 
+El punto [[0], [0]]  se llama el origen del plano 
+Una lista de vectores se puede organizar en una matriz 
+Matriz 
+UnaFigura(340,240) [[0, 0, 0.5, 1, 1, 0], [0, 1, 1.5, 1, 0, 0]] 
+Ejercicio 
+Con mínimo 15 puntos realice un dibujo y escriba su matriz 
+¿Que puede representar un vector de tres renglones? 

@@ -1,0 +1,13 @@
+Cuando se suman los vectores, se suman las componentes de cada vector. Gráficamente el segundo sumando se representa por una flecha que se traslada. Los dos vectores forman un paralelogramo. La suma de los vectores es la diagonal que parte del origen.  
+Suma de vectores 
+UnaFigura(340,240) <class 'pygameMat.ImgsHoriz'>[('ImgStru=', 0, 24.5), ('[[2], [1]]', 39, 0.0)]
+ <class 'pygameMat.ImgsHoriz'>[('ImgStrv=', 0, 24.5), ('[[-1], [0.5]]', 36, 0.0)]
+ <class 'pygameMat.ImgsHoriz'>[('ImgStru+v=', 0, 24.5), ("<class 'pygameMat.UnaOpBin'>[('ImgStr(', 0, 24.5), ('[[2], [1]]', 15, 0.0), ('ImgStr+', 84, 24.5), ('[[-1], [0.5]]', 107, 0.0), ('ImgStr)', 200, 24.5)]", 74, 0.0), ('ImgStr=', 286, 24.5), ('[[1], [1.5]]', 309, 0.0)]
+ <class 'pygameMat.ImgsHoriz'>[('ImgStrv+u=', 0, 24.5), ("<class 'pygameMat.UnaOpBin'>[('ImgStr(', 0, 24.5), ('[[-1], [0.5]]', 15, 0.0), ('ImgStr+', 108, 24.5), ('[[2], [1]]', 131, 0.0), ('ImgStr)', 200, 24.5)]", 74, 0.0), ('ImgStr=', 286, 24.5), ('[[1], [1.5]]', 309, 0.0)]
+ 
+En las matrices también se suman los respectivos elementos. Aunque la suma de vectores es muy útil, la suma de matrices no lo es tanto 
+Suma de matrices 
+Ejercicios 
+(1) Sea <class 'pygameMat.ImgsHoriz'>[('ImgStru=', 0, 24.5), ('[[-2], [1]]', 39, 0.0)] y <class 'pygameMat.ImgsHoriz'>[('ImgStrv=', 0, 24.5), ('[[3], [2]]', 36, 0.0), ('ImgStr.', 105, 24.5)]  Encuentre ImgStru+v gráficamente y compruebe analíticamente. 
+(2) ¿Cumple la suma de vectores la ley modulativa? 
+ ¿Cuál es el módulo de la suma de vectores? 

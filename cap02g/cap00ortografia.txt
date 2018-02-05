@@ -1,0 +1,19 @@
+La multiplicación de las matrices A B es A por cada vector de B 
+Multiplicación Matricial 
+La primera matriz multiplica cada columna de la segunda matriz 
+Cada matriz puede significar una transformación y 
+ un conjunto de puntos, ver ejercicio (3) 
+Ejercicios 
+Sean  A_(1) = [[2, 0], [0, 1]] , A_(2) = [[1, 0], [0, 0.5]] , A_(3) = [[0, 1], [1, 0]] 
+, A_(4) = [[1, 1], [0, 1]] , A_(5) = [[1, 0], [1, 1]] , A_(6) = [[1, 0], [0, 0]] 
+, A_(7) = [[0, 0], [0, 1]] , A_(8) = [[1, 0], [0, 1]] y B= [[0, 0.5, 1, 1], [1, 1.5, 1, 0]] 
+(1) Dibuje los puntos de la matriz  B  y del resultado de cada  A_(i) B 
+(2) Calcule y dibuje:  <class 'pygameMat.ImgsHoriz'>[('A_(1)', 0, 0.0), ('(', 29, 1.0), ('A_(3)', 44, 0.0), ('B),', 74, 1.0)] <class 'pygameMat.ImgsHoriz'>[('(', 0, 1.0), ('A_(1)', 15, 0.0), ('A_(3)', 44, 0.0), (')B', 74, 1.0)]  y  <class 'pygameMat.ImgsHoriz'>[('(', 0, 1.0), ('A_(3)', 15, 0.0), ('A_(1)', 45, 0.0), (')B', 74, 1.0)] 
+¿Puede ser la multiplicación matricial conmutativa? 
+ ¿Puede ser asociativa? 
+(3) Calcule [['a', 'b'], ['c', 'd']] [[1], [0]]  y  [['a', 'b'], ['c', 'd']] [[0], [1]] 
+Si  <class 'pygameMat.ImgsHoriz'>[("[['a', 'b'], ['c', 'd']]", 0, 0.0), ('[[1], [0]]', 105, 0.0), ('=', 173, 24.5), ('[[2], [3]]', 196, 0.0)]  y  <class 'pygameMat.ImgsHoriz'>[("[['a', 'b'], ['c', 'd']]", 0, 0.0), ('[[1], [0]]', 105, 0.0), ('=', 173, 24.5), ('[[-1], [5]]', 196, 0.0)] ¿Cuál es el valor de  [['a', 'b'], ['c', 'd']] ? 
+(4) Utilizando el procedimiento del punto anterior encuentre las  
+columnas de la matriz que rota el plano un ángulo $phi  
+(5) Encuentre las condiciones que deben cumplir los elementos de  
+una matriz  A  de 2x2 para que  AA=I, donde  <class 'pygameMat.ImgsHoriz'>[('I=', 0, 24.5), ('[[1, 0], [0, 1]]', 34, 0.0)]  es la matriz identidad 
