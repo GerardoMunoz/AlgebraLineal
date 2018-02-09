@@ -12,3 +12,5 @@ Operaciones Matriciales [Jupyter](AL001.000_Op_matrices.ipynb) [PDF](AL001.000_O
 Transformaciones Lineales [Jupyter](AL002.000_Tr_mat.ipynb) [PDF](AL002.000_Tr_mat.pdf)
 
 Sistemas de ecuaciones [Jupyter](AL003.000_Sis_ecu.ipynb) [PDF](AL003.000_Sis_ecu.pdf)
+Conjunto solución  [Jupyter](AL003.300_Conj_sol.ipynb) [PDF](AL003.300_Conj_sol.pdf)
+Reducción por Gauss  [Jupyter](AL003.500_Gauss.ipynb) [PDF](AL003.500_Gauss.pdf)
