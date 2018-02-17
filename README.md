@@ -14,6 +14,7 @@
    * Matriz inversa [Jupyter](AL_003.700_Inversa.ipynb) [PDF](AL_003.700_Inversa.pdf)
 
 Ejemplos y ejercicios del libro de Nakos.
+
 |Sec.|Ejemplos|Ejercicios|
 |----|--------|----------|
 |1.1|1,2,3,4,5,6,7,8,9,10,11,12,13|1,2,3,4,5,15|
