@@ -2,6 +2,20 @@ import IPython
 from sympy import * 
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.patches import Arc
+import math
+
+
+def angulo(ax,u,v,r,nombre='',fontsize=15):
+    alpha_u=math.degrees(math.atan2(u[1],u[0]))
+    alpha_v=math.degrees(math.atan2(v[1],v[0]))
+    ax.add_patch(Arc((0,0),r,r,0,alpha_u,alpha_v))
+    alpha=(alpha_u+alpha_v)/2
+    x=r*math.cos(math.radians(alpha))/2
+    y=r*math.sin(math.radians(alpha))/2
+    if nombre!='':
+        ax.text(x,y,nombre,fontsize=fontsize)
+
 
 #def bloques(lista2):#.as_explicit()
     #recibe una matriz por bloques de sympy.Matrix y la retorna en un solo bloque 
@@ -18,6 +32,74 @@ import matplotlib.pyplot as plt
         #print('p2',elem0,ren0)
 #    return None#ren0#.as_explicit()
 
+def ejes(x0,y0,x1,y1,k=1):
+    #fig=plt.figure(figsize=(8,6),dpi=80)
+    #ax = plt.Axes(fig,[0.,0.,1.,1.])
+    ax = plt.axes([0.,0.,k,k*1.34*(y1-y0)/(x1-x0)])
+    ax.set_xlim(x0,x1)
+    ax.set_ylim(y0,y1)
+    return ax
+
+def ejes3d(x0,x1,y0,y1,z0,z1):
+    #fig=plt.figure(figsize=(8,6),dpi=80)
+    #ax = plt.Axes(fig,[0.,0.,1.,1.])
+    fig=plt.figure()
+    ax=fig.add_subplot(111,projection='3d')
+    ax.set_xlim([x0,x1])
+    ax.set_ylim([y0,y1])
+    ax.set_zlim([z0,z1])
+    return ax
+
+
+def flecha(ax,v,sumar=[0,0],nombre='',fontsize=15,**kwargs):
+    ax.arrow(float(sumar[0]),float(sumar[1]),float(v[0]),float(v[1]),head_width=0.02,head_length=0.02, length_includes_head=True,**kwargs)
+    if nombre!='':
+        ax.text(v[0]+sumar[0],v[1]+sumar[1],nombre,fontsize=fontsize)
+
+from mpl_toolkits.mplot3d import Axes3D
+
+def flecha3d(ax,A:Matrix,B:Matrix=None,nombres=None,fontsize=15,**kwargs):#problemas en 2D
+    if B==None:
+        B=zeros(*A.shape)
+    elif A.shape!=B.shape:
+        raise ValueError('flechas(ax,A) o flechas(ax,A,B) y A y B son del mismo tamaño')
+
+    if isinstance(nombres,str):
+        if A.cols==1:
+            nombres=[nombres]
+        else:
+            nombres=[nombres+str(i) for i in range(A.cols)]
+    elif (isinstance(nombres,list)) and (len(nombres)!=A.cols):
+        raise ValueError('flechas(ax,A) o flechas(ax,A,n) y n="v" o  len(n)!=A.cols')
+    elif not isinstance(nombres,list) and nombres!=None:
+        raise ValueError('n es str o list')
+        
+    if A.rows==2:
+        #v=A.col(0)
+        #sumar=B.col(0)
+        #ax.arrow(float(sumar[0]),float(sumar[1]),float(v[0]),float(v[1]),head_width=0.02,head_length=0.02, length_includes_head=True,**kwargs)
+        #if nombre!='':
+        #    ax.text(v[0]+sumar[0],v[1]+sumar[1],nombre,fontsize=fontsize)
+        ax.quiver(B.row(0),B.row(1),A.row(0),A.row(1),**kwargs)
+        if nombres!= None:
+            for i in range(A.cols):
+                ax.text(A.row(0)[i]+B.row(0)[i],A.row(1)[i]+B.row(1)[i],nombres[i],fontsize=fontsize)
+        
+    elif A.rows==3:
+        #AT=A.T
+        ax.quiver(B.row(0),B.row(1),B.row(2),A.row(0),A.row(1),A.row(2),**kwargs)
+        if nombres!= None:
+            for i in range(A.cols):
+                ax.text(A.row(0)[i]+B.row(0)[i],A.row(1)[i]+B.row(1)[i],A.row(2)[i]+B.row(2)[i],nombres[i],fontsize=fontsize)
+    else:
+        raise ValueError('Sólo imprime matrices de 2 o 3 renglones')
+
+
+def fun_cols_mat(f,A):
+    B=f(A.col(0))
+    for i in range(1,A.cols):
+        B=B.row_join(f(A.col(i)))
+    return B
 
 def grafo(nodos,arcos,zoom=1,dx=1,dy=2,unid="",dist=100,radio=5,despl=20):
 #nodos{nombre:(x,y,"dato bajo nodo"),}
@@ -60,7 +142,7 @@ def imprimir(*datos):
  return IPython.display.Latex(salida)
  
 
-def juntar(*columnas):#hacer encaramar para col_join
+def juntar(*columnas):#hacer encaramar o apilar para col_join
     A=columnas[0]
     for columna in columnas[1:]:
         A=A.row_join(columna)
