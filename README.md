@@ -28,4 +28,4 @@ Ejemplos y ejercicios del libro de Nakos.
    * Área de un paralelogramo en 2D y determinante de 2x2 [Jupyter](AL005.00_Det2d.ipynb) [PDF](AL005.00_Det2d.pdf)
    * Área de un paralelogramo en 3D y Producto cruz  [Jupyter](AL005.300_ProdCruz.ipynb) [PDF](AL005.300_ProdCruz.pdf)
    * Volumen del paralelepípedo y determinante de 3x3 [Jupyter](AL005.600_Det3d.ipynb) [PDF](AL005.600_Det3d.pdf)
-   * Determinante de NxN [Jupyter](.ipynb) [PDF](.pdf)
+   * Determinante de NxN [Jupyter](AL_005.800_Det.ipynb) [PDF](AL_005.800_Det.pdf)
