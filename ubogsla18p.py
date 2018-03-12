@@ -101,9 +101,10 @@ def fun_cols_mat(f,A):
         B=B.row_join(f(A.col(i)))
     return B
 
-def grafo(nodos,arcos,zoom=1,dx=1,dy=2,unid="",dist=100,radio=5,despl=20):
-#nodos{nombre:(x,y,"dato bajo nodo"),}
-#arcos[("nombre",nodo1,nodo2),]
+def grafo(nodos,arcos,etiquetas=[],zoom=1,dx=1,dy=1,unid="",dist=100,radio=5,despl=20):
+#nodos={nombre:(x,y,"dato bajo nodo"),}
+#arcos=[("nombre",nodo1,nodo2),]
+#etiquetas=[(x,y,"txt"),]
     def int2dist(num):
         return int2unid(num*dist)
     def int2unid(num):
@@ -129,8 +130,10 @@ def grafo(nodos,arcos,zoom=1,dx=1,dy=2,unid="",dist=100,radio=5,despl=20):
     for arco in arcos:
         svg=svg+flecha(nodos[arco[1]][0],nodos[arco[1]][1],nodos[arco[2]][0],nodos[arco[2]][1])
         svg=svg+'<text x='+int2unid((nodos[arco[1]][0]+nodos[arco[2]][0])/2*dist)+' y='+int2unid((nodos[arco[1]][1]+nodos[arco[2]][1])/2*dist+despl)+'>'+arco[0]+'</text>'
+    for etiqueta in etiquetas:
+        svg=svg+'<text x='+int2dist(etiqueta[0])+' y='+int2dist(etiqueta[1])+'>'+etiqueta[2]+'</text>'
     svg=svg+'</svg>'
-    print(svg)
+    #print(svg)
     return IPython.display.SVG(data=svg)
 
 def imprimir(*datos):
