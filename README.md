@@ -21,6 +21,7 @@ Ejemplos y ejercicios del libro de Nakos.
 |1.2|14,15,16,17,18,19,20,21,22,23|(clasificar en 1,2,3),45,47,53a|
 |2.1|1,2,3,4,5,6,7,8|7,11,21,46a,47a,51,52|
 |3.1|1,2,3,4,6,7,8|4.[a,b,c,e],10.[abcd],11|
+|3.2|1a,2a,3,4,7,13c,17a,20,22,27,32,34|
 |5.1|1,3,4|9,31,34|
    
 * Producto punto [PDF](Producto_punto.pdf)
@@ -29,3 +30,14 @@ Ejemplos y ejercicios del libro de Nakos.
    * Área de un paralelogramo en 3D y Producto cruz  [Jupyter](AL005.300_ProdCruz.ipynb) [PDF](AL005.300_ProdCruz.pdf)
    * Volumen del paralelepípedo y determinante de 3x3 [Jupyter](AL005.600_Det3d.ipynb) [PDF](AL005.600_Det3d.pdf)
    * Determinante de NxN [Jupyter](AL_005.800_Det.ipynb) [PDF](AL_005.800_Det.pdf)
+
+* Rectas y planos [PDF](AL_006.000_Rectas_Planos.ipynb)
+
+|Sec.|Ejercicios|
+|----|----------|
+|2.2| |
+|2.7| del 1 al 30 |
+|6.1| 1,3,11,17,22a,23a,24a,29a,35 |
+|6.2| 1,3,5,7,8-18,23,31G,33,37 |
+|6.3| 1a,3a,7,8,9a,11 |
+
