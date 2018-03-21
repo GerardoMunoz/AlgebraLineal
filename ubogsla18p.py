@@ -16,6 +16,12 @@ def angulo(ax,u,v,r,nombre='',fontsize=15):
     if nombre!='':
         ax.text(x,y,nombre,fontsize=fontsize)
 
+def apilar(*renglones):# juntar para row_join
+    A=renglones[0]
+    for renglon in renglones[1:]:
+        A=A.col_join(renglon)
+    return A
+
 
 #def bloques(lista2):#.as_explicit()
     #recibe una matriz por bloques de sympy.Matrix y la retorna en un solo bloque 
@@ -145,7 +151,7 @@ def imprimir(*datos):
  return IPython.display.Latex(salida)
  
 
-def juntar(*columnas):#hacer encaramar o apilar para col_join
+def juntar(*columnas):# apilar para col_join
     A=columnas[0]
     for columna in columnas[1:]:
         A=A.row_join(columna)
