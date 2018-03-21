@@ -36,6 +36,7 @@ Ejemplos y ejercicios del libro de Nakos.
 |Sec.|Ejercicios|
 |----|----------|
 |2.2| |
+|2.6| 1a,1b,2,4,6,7,9 |
 |2.7| del 1 al 30 |
 |6.1| 1,3,11,17,22a,23a,24a,29a,35 |
 |6.2| 1,3,5,7,8-18,23,31G,33,37 |
