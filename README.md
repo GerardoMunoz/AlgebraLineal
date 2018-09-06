@@ -43,10 +43,10 @@ Ejemplos y ejercicios del libro de Nakos.
         1. Columna de cofactores
         1. Determinante
         1. Propiedades del determinante
-3. Espacios Afines [PDF](AL_006.000_Rectas_Planos.ipynb)
-   3. Rectas en 2D
-   3. Planos en 3D
-   3. Rectas en 3D
+1. Espacios Afines [PDF](AL_006.000_Rectas_Planos.ipynb)
+   1. Rectas en 2D
+   1. Planos en 3D
+   1. Rectas en 3D
    
 
 
