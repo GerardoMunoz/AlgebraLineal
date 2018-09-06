@@ -31,18 +31,18 @@ Ejemplos y ejercicios del libro de Nakos.
     1.  Dirección (Coseno)
          1. Perpendiculares (vs paralelos)
          1. Proyección
-2. Determinante
-   2. En 2D [Jupyter](AL005.00_Det2d.ipynb) [PDF](AL005.00_Det2d.pdf)
-        2. Vector ortogonal
-        2. Área del paralelogramo
-   2. En 3D
-        2. Producto cruz  [Jupyter](AL005.300_ProdCruz.ipynb) [PDF](AL005.300_ProdCruz.pdf)
-        2. Área del paralelogramo
-        2. Volumen del paralelepípedo  [Jupyter](AL005.600_Det3d.ipynb) [PDF](AL005.600_Det3d.pdf)
-   2. En nD [Jupyter](AL_005.800_Det.ipynb) [PDF](AL_005.800_Det.pdf)
-        2. Columna de cofactores
-        2. Determinante
-        2. Propiedades del determinante
+1. Determinante
+   1. En 2D [Jupyter](AL005.00_Det2d.ipynb) [PDF](AL005.00_Det2d.pdf)
+        1. Vector ortogonal
+        1. Área del paralelogramo
+   1. En 3D
+        1. Producto cruz  [Jupyter](AL005.300_ProdCruz.ipynb) [PDF](AL005.300_ProdCruz.pdf)
+        1. Área del paralelogramo
+        1. Volumen del paralelepípedo  [Jupyter](AL005.600_Det3d.ipynb) [PDF](AL005.600_Det3d.pdf)
+   1. En nD [Jupyter](AL_005.800_Det.ipynb) [PDF](AL_005.800_Det.pdf)
+        1. Columna de cofactores
+        1. Determinante
+        1. Propiedades del determinante
 3. Espacios Afines [PDF](AL_006.000_Rectas_Planos.ipynb)
    3. Rectas en 2D
    3. Planos en 3D
