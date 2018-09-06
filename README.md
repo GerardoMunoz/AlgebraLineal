@@ -24,14 +24,31 @@ Ejemplos y ejercicios del libro de Nakos.
 |3.2|1a,2a,3,4,7,13c,17a,20,22,27,32,34|
 |5.1|1,3,4|9,31,34|
    
-* Producto punto [PDF](Producto_punto.pdf)
-* Determinante y producto cruz 
-   * Área de un paralelogramo en 2D y determinante de 2x2 [Jupyter](AL005.00_Det2d.ipynb) [PDF](AL005.00_Det2d.pdf)
-   * Área de un paralelogramo en 3D y Producto cruz  [Jupyter](AL005.300_ProdCruz.ipynb) [PDF](AL005.300_ProdCruz.pdf)
-   * Volumen del paralelepípedo y determinante de 3x3 [Jupyter](AL005.600_Det3d.ipynb) [PDF](AL005.600_Det3d.pdf)
-   * Determinante de NxN [Jupyter](AL_005.800_Det.ipynb) [PDF](AL_005.800_Det.pdf)
+1. Producto  Punto [PDF](Producto_punto.pdf)
+   1.1. Magnitud
+        1.1.1 Vector unitario
+        1.1.2 Distancia
+    1.2. Dirección (Coseno)
+         1.2.1 Perpendiculares (vs paralelos)
+         1.2.2 Proyección
+2. Determinante
+   2.1. En 2D [Jupyter](AL005.00_Det2d.ipynb) [PDF](AL005.00_Det2d.pdf)
+        2.1.1. Vector ortogonal
+        2.1.2. Área del paralelogramo
+   2.2. En 3D
+        2.2.1. Producto cruz  [Jupyter](AL005.300_ProdCruz.ipynb) [PDF](AL005.300_ProdCruz.pdf)
+        2.2.2 Área del paralelogramo
+        2.2.3 Volumen del paralelepípedo  [Jupyter](AL005.600_Det3d.ipynb) [PDF](AL005.600_Det3d.pdf)
+   2.3. En nD [Jupyter](AL_005.800_Det.ipynb) [PDF](AL_005.800_Det.pdf)
+        2.3.1 Columna de cofactores
+        2.3.2 Determinante
+        2.3.3 Propiedades del determinante
+3. Espacios Afines [PDF](AL_006.000_Rectas_Planos.ipynb)
+   3.1. Rectas en 2D
+   3.2. Planos en 3D
+   3.3. Rectas en 3D
+   
 
-* Rectas y planos [PDF](AL_006.000_Rectas_Planos.ipynb)
 
 |Sec.|Ejercicios|
 |----|----------|
