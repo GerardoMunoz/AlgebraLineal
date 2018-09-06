@@ -52,7 +52,7 @@ Ejemplos y ejercicios del libro de Nakos.
 
 |Nakos|Ejercicios|
 |----|----------|
-|2.2| |
+|2.2| del 1 al 26 |
 |2.6| 1a,1b,2,4,6,7,9 |
 |2.7| del 1 al 30 |
 |6.1| 1,3,11,17,22a,23a,24a,29a,35 |
