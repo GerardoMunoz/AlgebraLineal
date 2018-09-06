@@ -25,10 +25,10 @@ Ejemplos y ejercicios del libro de Nakos.
 |5.1|1,3,4|9,31,34|
    
 1. Producto  Punto [PDF](Producto_punto.pdf)
-   1.1. Magnitud
-        1.1.1 Vector unitario
-        1.1.2 Distancia
-    1.2. Dirección (Coseno)
+   1. 1. Magnitud
+        1. 1.1 Vector unitario
+        1. 1.2 Distancia
+    1. 2. Dirección (Coseno)
          1.2.1 Perpendiculares (vs paralelos)
          1.2.2 Proyección
 2. Determinante
