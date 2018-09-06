@@ -15,7 +15,7 @@
 
 Ejemplos y ejercicios del libro de Nakos.
 
-|Sec.|Ejemplos|Ejercicios|
+|Nakos|Ejemplos|Ejercicios|
 |----|--------|----------|
 |1.1|1,2,3,4,5,6,7,8,9,10,11,12,13|1,2,3,4,5,15|
 |1.2|14,15,16,17,18,19,20,21,22,23|(clasificar en 1,2,3),45,47,53a|
@@ -50,7 +50,7 @@ Ejemplos y ejercicios del libro de Nakos.
    
 
 
-|Sec.|Ejercicios|
+|Nakos|Ejercicios|
 |----|----------|
 |2.2| |
 |2.6| 1a,1b,2,4,6,7,9 |
