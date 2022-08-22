@@ -1,0 +1,10 @@
+Con la ecuación lineal estándar se conoce la ruta del navío, pero no su posición. 
+Ecuación lineal estándar 
+La ecuación lineal estándar describe una línea recta sin parámetro. Entonces es más sencillo comprobar si un punto pertenece a la recta 
+Veamos cómo obtener la ecuación lineal estándar a partir de una ecuación que pasa por el punto  <class 'pygameMat.ImgsHoriz'>[('ImgStrP=', 0, 24.5), ('[[-1], [0.5]]', 43, 0.0)] $e10 y tiene dirección  <class 'pygameMat.ImgsHoriz'>[('ImgStrv=', 0, 24.5), ('[[1.5], [0.5]]', 36, 0.0)] 
+Primero se iguala cada renglón del vector por separado 
+Luego se despeja el parámetro en cada ecuación y se igualan 
+Finalmente se escribe la ecuación lineal estándar 
+Ejercicios 
+(1) Encuentre la ecuación lineal estándar que pasa por el punto  [[1], [2]] $e10 y tiene dirección  [[0.5], [-1]] 
+(2) Determine cuál de los puntos pertenece a la anterior recta: ImgStrP= [[2], [1]] ImgStr, Q= [[2], [0]] ImgStr, R= [[2], [-1]] 

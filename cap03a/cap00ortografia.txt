@@ -1,0 +1,17 @@
+Recta por interpolación 
+Se está ensayando un faro-láser para orientar la ruta de un navío que debe viajar en línea recta a velocidad constante. El navío pasa por el punto de partida P= [[-1], [0.5]]  en tiempo t=0 días y quisiera llegar al punto  Q= [[0.5], [1]]  en tiempo t=1 día. Determine su posición para cada t. 
+UnaFigura(350,300) ImgStrt=
+ ImgStrR=P+t(Q-P)
+ <class 'pygameMat.ImgsHoriz'>[('ImgStr=', 0, 24.5), ('[[-1], [0.5]]', 23, 0.0), ('ImgStr+t(', 116, 24.5), ('[[0.5], [1]]', 163, 0.0), ('ImgStr-', 256, 24.5), ('[[-1], [0.5]]', 266, 0.0), ('ImgStr)', 359, 24.5)]
+ <class 'pygameMat.ImgsHoriz'>[('ImgStr=', 0, 24.5), ('[[-1], [0.5]]', 23, 0.0), ('ImgStr+t', 116, 24.5), ('[[1.5], [0.5]]', 148, 0.0)]
+ 
+El conjunto  <class 'pygameMat.ImgsHoriz'>[('ImgStr{P+t(Q-P) | t', 0, 0.0), ('$in', 182, 2.5), ('$R', 205, 1.0), ('ImgStr}', 227, 0.0)] $e10 es una recta 
+El vector  ImgStrv=Q-P $e10 se llama la dirección de la recta 
+La fórmula  ImgStrP+t(Q-P) $e10 es de una recta que pasa por dos puntos 
+La fórmula  ImgStrP+tv $e10 es de una recta con un punto y una dirección 
+Ejercicios 
+Sean  <class 'pygameMat.ImgsHoriz'>[('ImgStrP=', 0, 24.5), ('[[1], [2]]', 43, 0.0)]  y  <class 'pygameMat.ImgsHoriz'>[('ImgStrQ=', 0, 24.5), ('[[-1], [1]]', 45, 0.0)] . Encuentre: 
+(1) La dirección de la recta que pasa por los dos puntos 
+(2) El conjunto de la recta que pasa por los dos puntos 
+(3) La fórmula de la recta que pasa por los dos puntos 
+(4) ¿Con una fórmula de un punto y dirección ( ImgStrP+tv ), cómo se puede recuperar los dos puntos? 
