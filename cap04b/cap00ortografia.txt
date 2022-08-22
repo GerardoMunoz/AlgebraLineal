@@ -1,0 +1,16 @@
+En la sección anterior se estudió la imagen de una transformación matricial de 1D en 2D. Ahora estudiaremos la imagen de una transformación matricial de 2D en 2D.  
+Imagen de una transformación  
+matricial de $R $x $R $e10 en $R $x $R 
+Una transformación matricial de $R $x $R $e10 en $R $x $R $e10 es una matriz  A $e10 de 2 $x 2, que transforma un vector  v $e10 de $R $x $R $e10 en un vector  Av $e10 de $R $x $R 
+Ejemplo 
+UnaFigura(300,300) [[0.5, 1], [1.2, 0.7]] UnaFigura(300,300) 
+La imagen de una transformación matricial A $e10 de $R $x $R $e10 en $R $x $R $e10 usualmente es todo el plano. En este caso se dice que la transformación es sobreyectiva (o simplemente sobre) 
+Ejemplo 
+UnaFigura(250,300) [[0.99, 1.99], [1.99, 2.99]] UnaFigura(250,300) 
+En algunos casos la imagen de la transformación matricial A $e10 es sólo una recta que pasa por el origen y las columnas de  A 
+Ejemplo 
+UnaFigura(300,300) [[0.5, 1], [1, 2]] UnaFigura(300,300) 
+Recordemos que la imagen de una transformación matricial A $e10 se conoce también como el espacio generado por las columnas de   A $e10 o simplemente como el espacio columna de  A 
+Ejercicios 
+Para las siguientes matrices diga cuales corresponden a transformaciones sobre y para las que no son sobre diga cuál es la imagen de la transformación 
+[[1, 1], [2, 1]] [[0.5, 2], [1, 4]] [[0, 0], [0, 0]] [[0, 1], [0, 2]] [[0, 0], [2, 1]] 

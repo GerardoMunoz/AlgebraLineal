@@ -1,0 +1,13 @@
+En secciones anteriores se transformaron unos puntos de 2D. Ahora estudiaremos algunas propiedades de una transformación matricial. En particular hablaremos de la imagen.  
+Imagen de una transformación  
+matricial de $R $e10 en $R $x $R 
+Una transformación matricial de $R $e10 en $R $x $R $e10 es un vector  <class 'pygameMat.ImgsHoriz'>[('v', 0, 0.0), ('$in', 15, 2.5), ('$R', 38, 1.0), ('$x', 60, 2.5), ('$R', 83, 1.0)] , que transforma un escalar  t $e10 en el vector  tv 
+Ejemplo 
+UnaFigura(300,23) [[0.5], [1]] UnaFigura(300,300) 
+La imagen de una transformación matricial de $R $e10 en $R $x $R $e10 usualmente es una recta que pasa por el origen. 
+La imagen de una transformación matricial v $e10 se conoce también como el espacio generado por el vector   v. 
+Ejercicios 
+Sean  <class 'pygameMat.ImgsHoriz'>[('v=', 0, 24.5), ('[[1], [2]]', 36, 0.0)]  y  <class 'pygameMat.ImgsHoriz'>[('u=', 0, 24.5), ('[[3], [6]]', 39, 0.0)] 
+(1) Dibuje la imagen de la transformación dada por el vector  v 
+(2) ¿Pertenece  u $e10 al generado del vector  v ? 
+(3) ¿Cuál es el vector cuya imagen no es una recta? 
